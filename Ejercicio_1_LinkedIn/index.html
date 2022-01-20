@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <!-- Main styles-->
+    <link rel="stylesheet" href="css/style.css"> 
+    <title>LinkedIn | Prueba técnica</title>
+</head>
+<body>
+    <div class="container">
+
+        
+        <!-- ================================================= Start NavBar ================================================= -->
+        
+        <div class="NavBar">
+            <div class="content-header">
+                <div class="content-header-logo">
+                    <img src="img/logo.png" class="logo" alt="Logo">
+                </div>
+                <div class="content-header-search">
+                    <input type="text" class="placeholder-icon" placeholder=" Buscar">
+                </div>
+            </div>
+            <div class="content-header-menu">
+                <div class="menu1">
+                    <ul>
+                        <li class="active"><a href="#"><img src="img/nav-home.svg" alt="nav-home-icon"><p>Home</p></a></li>
+                        <li><a href="#"><img src="img/nav-network.svg" alt="nav-network-icon"><p>My Network</p></a></li>
+                        <li><a href="#"><img src="img/nav-jobs.svg" alt="nav-jobs-icon"><p>Jobs</p></a></li>
+                        <li><a href="#"><img src="img/nav-messaging.svg" alt="nav-messaging-icon"><p>Messaging</p></a></li>
+                        <li><a href="#"><img src="img/nav-notifications.svg" alt="nav-notifications-icon"><p>Notifications</p></a></li>
+                        <li><a href="#"><img src="img/profile-picture.jpeg" class="img-circle" alt="profile-picture"><p>Me <img src="img/down-icon.svg" alt="down-icon"></p></a></li>
+                    </ul>
+                </div>
+                <div class="menu2">
+                    <ul>
+                        <li><a href="#"><img src="img/nav-work.svg" alt="nav-work-icon"><p>Work <img src="img/down-icon.svg" alt="down-icon"></p></a></li>
+                    </ul>
+                </div>
+            </div> <br />
+        </div>
+
+        <!-- ================================================= End NavBar ================================================= -->
+
+        <!-- ================================================= Start Body ================================================= -->
+
+        <div class="content-body">
+            <div class="content-body-personal">
+                <div class="content-body-profile">
+                    <div class="content-body-profile-img">
+                        <img src="./img/portrait.jpeg" class="img-portrait" alt="Portrait Image">
+                        <img src="./img/profile-picture.jpeg" class="img-profile-picture" alt="Profile picture">
+                    </div>
+                    <div class="conten-body-profile-personal">
+                        <a href="#"><h2>Wilfer Zuluaga Aristizabal</h2></a>
+                        <p>Student of Analysis and Development of Information Systems, with a great taste for self-learning. Currently working as a freelance designer.</p>
+                    </div>
+                    <div class="content-body-profile-connections">
+                        <a href="#">
+                            <div class="content-body-profile-connections-number">
+                                <p><strong>1,923</strong></p>
+                            </div>
+                            <h4>Connections</h4>
+                            <p><strong>Grow your network</strong></p>
+                        </a>
+                    </div>
+                    <div class="content-body-profile-premium">
+                        <a href="#">
+                            <p class="light-text">Access exclusive tools & insights</p>
+                            <p><img src="img/premium-icon.svg" class="premium-icon" alt="premium-icon"><strong> Try premium for free</strong></p>
+                        </a>
+                    </div>
+                    <div class="content-body-profile-items">
+                        <p><img src="./img/item-icon.svg" class="item-icon" alt="item-icon"> My items</p>
+                    </div>
+                </div>
+                <div class="content-body-community">
+                    <div class="content-body-community-interactive">
+                        <div class="community">
+                            <a href="#">
+                                <p>Groups</p>
+                            </a>
+                        </div>
+                        <div class="events">
+                            <a href="#">
+                                <p>Events</p>
+                                <img src="./img/plus-icon.svg" alt="plus-icon">
+                            </a>
+                        </div>
+                        <div class="community">
+                            <a href="#">
+                                <p>Followed Hashtags</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="content-body-community-discover">
+                        <a href="#">
+                            <p>Discover more</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="content-body-post">
+                <div class="content-body-post-create">
+                    <div class="create-post">
+                        <img src="./img/profile-picture.jpeg" class="img-profile-picture" alt="profile picture">
+                        <input type="checkbox" class="button-modal" id="btn-modal">
+                        <label for="btn-modal" class="lbl-modal button-modal"><p>Start a post</p></label>
+                        <div class="modal">
+                            <div class="modal-container">
+                                <div class="modal-title">
+                                    <p>Create a post</p>
+                                    <label for="btn-modal"><img src="./img/close-icon.svg" alt=""></label>
+                                </div>
+                                <div class="modal-content">
+                                    <div class="modal-personal-info">
+                                        <img src="/img/profile-picture.jpeg" class="img-profile-picture" alt="Profile picture">
+                                        <div class="modal-peronal-info-text">
+                                            <p>Wilfer Zuluaga Aristizabal</p>
+                                            <button class="modal-personal-info-button"> Anyone <img src="./img/down-icon.svg" alt=""></button>
+                                        </div>
+                                    </div>
+                                    <div class="input">
+                                        <input type="text" class="text-post" id="text-post" placeholder="What do you want to talk about?">
+                                    </div>
+                                    <div class="hashtag">
+                                        <a href="#"><p>Add hashtag</p></a>
+                                    </div>
+                                    <div class="media">
+                                        <div class="modal-icons-media">
+                                            <p></p>
+                                            <p></p>
+                                            <p></p>
+                                            <p><img src="./img/nav-jobs.svg" alt="Jobs"></p>
+                                            <p></p>
+                                            <p></p>
+                                            <p></p>
+                                        </div>
+                                        <div class="post">
+                                            <button class="anyone"><p> Anyone</p></button>
+                                            <button class="publish">Post</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <a href="#">
+                            <p>Photo</p>
+                        </a>
+                        <a href="#">
+                            <p>Video</p>
+                        </a>
+                        <a href="#">
+                            <p>Event</p>
+                        </a>
+                        <a href="#">
+                            <p>Write Article</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="suggestions">
+                <div class="connect-suggestions">
+                    <div class="connect-suggestions-title">
+                        <p>Add to your feed</p>
+                        <img src="./img/feed-icon.svg" alt="">
+                    </div>
+                    <div class="connect-suggestions-content">
+                        <div class="connect-suggestions-content-item">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEGKw9Qlf4qZw/profile-displayphoto-shrink_800_800/0/1516250140607?e=1648080000&v=beta&t=rnl0Jot288zKq8vKPat6qCcDgRdDtxObhWheTZj8GFY" class="img-profile-picture" alt="Profile picture">
+                            <div class="connect-suggestion-content-text">
+                                <p class="name-suggestion">Christian Van Der Henst</p>
+                                <p class="description">Co-founder of Platzi | COO | Teacher |</p>
+                            </div>
+                        </div>
+                        <button class="connect-suggestion-content-button-follow"> Follow</button>
+                        <div class="connect-suggestions-content-item">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQG29alZeD3m0g/profile-displayphoto-shrink_800_800/0/1626896688685?e=1648080000&v=beta&t=vazBdosYxzhHSoP-6sFCbppQJHW5SaNDsDwREsHOJbQ" class="img-profile-picture" alt="Profile picture">
+                            <div class="connect-suggestion-content-text">
+                                <p class="name-suggestion">Alejandro Gallego Durango</p>
+                                <p class="description">QA Automation at Wolox</p>
+                            </div>
+                        </div>
+                        <button class="connect-suggestion-content-button-follow"> Follow</button>
+
+                        <div class="connect-suggestions-content-item">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQFW5n-Wkcbqlg/profile-displayphoto-shrink_800_800/0/1576681745900?e=1648080000&v=beta&t=OqyOOK1uj-UcXYBXNDnkGOnMOCTn1oIr1PPBKsPUDC0" class="img-profile-picture" alt="Profile picture">
+                            <div class="connect-suggestion-content-text">
+                                <p class="name-suggestion">Steven Henao Mejia</p>
+                                <p class="description">Test Automation Engineer at Globant</p>
+                            </div>
+                        </div>
+                        <button class="connect-suggestion-content-button-follow"> Follow</button>
+                        <a href="#" class="view-all">
+                            <p>View all the recomendations </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="suggestions-ads">
+                    <img src="./img/logo.png" alt="Ads">
+                </div>
+            </div>
+        </div>
+            
+        <!-- ================================================= End Body ================================================= -->
+            
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
+
+
+
